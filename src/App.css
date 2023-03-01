@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn-area{
+    display: flex;
+    gap: 1rem;
+    justify-content: center; 
+}
+.product-data{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  background-color: aqua;
+}
+.apple{
+  background-color: whitesmoke;
+}
+
+.header{
+  height: 200px;
+  padding-top: 50px;
+  justify-content: center;
+}
